@@ -16,7 +16,7 @@ def about():
     bot.write("Developpé par Sl00x ce bot n'a besoin d'aucun droit")
 
 #Création du bot
-bot = DiscordBot("neutrom.inc@gmail.com", "Anonymes1245!")
+bot = DiscordBot("email", "password")
 
 bot.haveNSFW(True);
 bot.mainServer("417615269108776960/754079824460513360")
