@@ -5,7 +5,7 @@ now = datetime.now()
 
 def command_aide():
     bot.write("heure => retourne l'heure (H:M:S)")
-    bot.write("zizi => retourne une blague")
+    bot.write("izi => retourne une blague")
     bot.write("about => information de création")
 
 def logout():
@@ -26,7 +26,7 @@ bot.triggerSign("::")
 
 #Init des commandes du bot
 bot.command("aide", command_aide)
-bot.command("zizi", bot.write, ["Mon gros chibrax et léve, tel le chapito du cirque Pinder"])
+bot.command("izi", bot.write, ["EZ MY DiR"])
 bot.command("heure", bot.write, ["Il est actuellement: " + now.strftime("%H:%M:%S")])
 bot.command("exit", logout)
 bot.command("about", about)
